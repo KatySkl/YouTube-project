@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+    background: url('img/Ellipse\ 1\ copy.png') no-repeat;
+    background-size: 1000px ;
+    background-color: #e8e8e8;
+    margin: 100px auto 100px auto;
+    width: 900px;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    font-weight: lighter;
+    margin: 10px;
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0.3em;
+    margin-bottom: 15px;
+}
+
+.light-man{
+    width: 800px;
+    height: auto;
+    border: 5px solid white;
+    display:block;
+    margin: 50px auto 50px;
+    box-shadow: 5px 5px 15px rgb(204, 204, 204);
+}
+
+p{
+    width: 650px;
+    padding: 10px;
+    line-height: 1.5em;
+    margin: auto;
+}
+
+li{
+    background: url(img/check\ icon.png) left top no-repeat;
+    padding: 0px 0px 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.check{
+    margin: 50px auto 0px 132px;
+}
+
+button{
+    background-color: #80b7b3;
+    color: white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 199px;
+    height: 44px;
+    border: none;
+    margin: 50px auto 100px 132px;
+    box-shadow: 0px 0px 15px #80b7b3;
+}
+
+ul :first-child {
+    text-shadow: 1px 1px 1px rgb(139, 139, 139);
+}
+ul :nth-child(2) {
+    color: #80b7b3;
+    font-style: italic;
+}
+
+ul :nth-child(3) {
+    font-weight: 600;
+}
+
+ul :last-child {
+    text-decoration: line-through;
+    color: gray;
+}
